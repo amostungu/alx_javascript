@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
-function add(numb1, numb2) {
-  return = numb1 + numb2;
+// Create a module named 'math' to export the 'add' function
+export function add(a, b) {
+  return a + b;
 }
