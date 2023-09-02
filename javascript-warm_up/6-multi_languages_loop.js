@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let myVar = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+const myVar = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 let j = 0;
 while (j <= 2)
 {
