@@ -3,17 +3,13 @@ const SquareP = require('./5-square');
 
 class Square extends SquareP {
   charPrint (c) {
-    let j = 0;
-    let k = 0;
     if (c === undefined) {
       c = 'X';
     }
-    while (j < this.height) {
+    for (let y = 0; y < this.height; y++) {
       let z = '';
-      j++;
-      while (k < this.width) {
+      for (let k = 0; k < this.width; k++) {
         z += c;
-        k++;
       }
       console.log(z);
     }
