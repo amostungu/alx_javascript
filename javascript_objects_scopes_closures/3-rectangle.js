@@ -7,14 +7,10 @@ class Rectangle {
       }
     }
     print() {
-      let j = 0;
-      let k = 0;
-      while(j < this.height) {
+      for(let j = 0; j < this.height; j++) {
         let z = '';
-        j++;
-        while(k < this.width) {
+        for(let k = 0; k < this.width; k++) {
           z += 'X';
-          k++;
         }
       }
     }
