@@ -1,1 +1,1 @@
-Rectangle {}
+class Rectangle {}
