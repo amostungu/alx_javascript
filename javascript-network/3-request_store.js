@@ -1,4 +1,4 @@
 #!/usr/bin/node
-const fileStore = require('fileStore');
+const fs = require('fs');
 const request = require('request');
-request(process.argv[2]).pipe(fileStore.createWriteStream(process.argv[3]));
+request(process.argv[2]).pipe(fs.createWriteStream(process.argv[3]));
